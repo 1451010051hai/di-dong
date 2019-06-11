@@ -12,7 +12,7 @@
         android:id="@+id/textView9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Điều Khiển Tự Động"
+        android:text="Điều Khiển Bằng Tay"
         android:textAlignment="center"
         android:textColor="@color/colorPrimary"
         android:textSize="24sp"
@@ -231,7 +231,7 @@
                     android:id="@+id/edtden2"
                     android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                   android:hint="giây"
+                    android:hint="giây"
                     android:ems="10"
                     android:inputType="number"
                     android:textColor="@color/colorPrimary"
@@ -261,7 +261,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Điều chỉnh thời gian đèn lên server"
+            android:text="Điều chỉnh đèn hướng Bắc - Nam"
             android:textStyle="bold" />
     </LinearLayout>
     <LinearLayout
@@ -274,7 +274,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="Load lại giá trị trên server"
+            android:text="Điều chỉnh đèn hướng Đông - Tây"
             android:textStyle="bold" />
     </LinearLayout>
 </LinearLayout>

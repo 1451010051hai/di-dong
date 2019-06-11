@@ -28,7 +28,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainFinger extends AppCompatActivity {
     EditText edtden1,edtden2;
     Button btnnhap,btnLoad;
     TextView textView;
@@ -43,8 +43,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-       addcontrol();
+        setContentView(R.layout.activity_main_finger);
+        addcontrol();
         requestQueue = Volley.newRequestQueue(this);
         getRepoList();
         btnnhap.setOnClickListener(new View.OnClickListener() {
@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
                             }
 
                         } catch (Exception ex) {
-                           // e.printStackTrace(ex);
+                            // e.printStackTrace(ex);
                         }
 
                     }
@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Toast.makeText(getApplicationContext(), "done", Toast.LENGTH_LONG).show();
 
-}
+    }
     private void sendWorkPost1Request() {
 
         JSONObject jsonBody = new JSONObject();

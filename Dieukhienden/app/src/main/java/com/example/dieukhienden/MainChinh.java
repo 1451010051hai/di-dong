@@ -17,10 +17,17 @@ Button btnbangtay,btntudong,btncanhbao;
     }
 
     private void addevent() {
-        btnbangtay.setOnClickListener(new View.OnClickListener() {
+        btntudong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(MainChinh.this,MainActivity.class);
+                startActivity(intent);
+            }
+        });
+        btnbangtay.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainChinh.this,MainFinger.class);
                 startActivity(intent);
             }
         });
